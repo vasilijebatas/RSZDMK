@@ -1,3 +1,4 @@
+<
 #include <stdio.h>
 
 void PrintResult(int res)
@@ -20,4 +21,12 @@ else
 PrintResult(c);
 
 return 0;
+
+int Calculation(int a, int b)
+{
+if(a > b)
+return a - b;
+else
+return b - a;
+
 }
